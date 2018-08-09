@@ -21,7 +21,7 @@ RUN mkdir /data
 ENV HOME /data
 
 #rpc port & main port
-EXPOSE 15156 14146
+EXPOSE 29998 51472
 
 COPY start.sh /start.sh
 COPY gen_config.sh /gen_config.sh
